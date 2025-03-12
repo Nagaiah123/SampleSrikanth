@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="22.291" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-03-08T05:42:16.416902100Z">
+<testcase classname="" name="To check title of the Application" time="7.195">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+Then User verifies the title of the Webpage.................................passed
+And User closes the Browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To check Login functionality of the Application - #1.1" time="8.745">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+When User enters  'Admin' the username......................................passed
+And User enters 'admin123' the password.....................................passed
+And User clicks on the Login button.........................................passed
+Then User verifies the Profile Account......................................passed
+And User closes the Browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="To check Login functionality of the Application - #1.2" time="6.007">
+<system-out><![CDATA[
+Given User opens the Browser................................................passed
+And User navigates to the "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" Webpage.passed
+When User enters  'Admin' the username......................................passed
+And User enters 'admin123' the password.....................................passed
+And User clicks on the Login button.........................................passed
+Then User verifies the Profile Account......................................passed
+And User closes the Browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
